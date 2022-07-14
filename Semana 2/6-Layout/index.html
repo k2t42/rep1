@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crafty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Crafty</h1>
+      <form>
+        <label for="search">Busca:</label>
+        <input type="text" id="search" placeholder="Escribe aqui..." />
+        <button>Buscar</button>
+      </form>
+      <nav aria-label="usuario">
+        <menu>
+          <li>
+            <a href="/wishlist">Lista de deseos</a>
+          </li>
+          <li>
+            <a href="/cart">Carrito</a>
+          </li>
+          <li>
+            <a href="/profile">Perfil</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+    <nav aria-label="categorias">
+      <menu>
+        <li>
+          <a href="">Ropa</a>
+        </li>
+        <li>
+          <a href="">Complementos</a>
+        </li>
+        <li>
+          <a href="">Calzado</a>
+        </li>
+        <li>
+          <a href="">Otros</a>
+        </li>
+      </menu>
+    </nav>
+    <main>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+          alt="foto de producto"
+        />
+        <h2>Nombre</h2>
+        <p class="description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+          odit.
+        </p>
+        <p class="price">20.00€</p>
+      </article>
+      <!--        <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet</p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet Sapiente, odit.</p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet</p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+          odit.
+        </p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet</p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet Sapiente, odit.</p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="price">20.00€</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1633025094151-6fc996255e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="foto de producto" />
+        <h2>Nombre</h2>
+        <p class="description">Lorem, ipsum dolor sit amet</p>
+        <p class="price">20.00€</p>
+      </article> -->
+    </main>
+    <footer>
+      <a href="">Términos y condiciones</a>
+      <a href="">Política de privacidad</a>
+    </footer>
+  </body>
+</html>
