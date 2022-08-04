@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(/3-Flex/img/hamburguesa.png) ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset {
+    margin: 3rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+legend{
+    text-transform: uppercase;
+    color: rgb(3, 3, 66);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ol, ul  {
+    list-style-type: none;
+    margin: 1rem;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+fieldset:first-of-type ul{
+    color: blueviolet;
+    
+}
+
+fieldset:nth-of-type(2){
+    color: aqua;
+}

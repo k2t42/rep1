@@ -8,5 +8,85 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body></body>
+  <body>
+    <form>
+      <fieldset>
+        <legend>
+          Personalizar Hamburguesa
+        </legend>
+        <ol>
+        <li>
+        <p>Tamaño de hamburguesa</p>
+        <ol>
+        <li><input type="radio" id="chico" name="tamano" value="chica">
+        <label for="chico">Chica</label></li>
+        <li><input type="radio" id="mediana" name="tamano" value="madiana">
+        <label for="mediana">Mediana</label></li>
+        <li><input type="radio" id="grande" name="tamano" value="grande">
+        <label for="grande">Grande</label></li>
+        </ol>
+        </li>
+        <li>
+          <p>Ingredientes</p>
+          <ul>
+            <li>
+            <input id="lechuga" type="checkbox">
+            <label for="lechuga" class="ingrediente">Lechuga</label></li>
+            <li>
+            <input id="jitomate" type="checkbox">
+            <label for="jitomate" class="ingrediente">Jitomate</label></li>
+            <li>
+            <input id="quesoblanco" type="checkbox">
+            <label for="quesoblanco" class="ingrediente">Queso blanco</label></li>
+            <li>
+            <input id="quesoamarillo" type="checkbox">
+            <label for="quesoamarillo" class="ingrediente">Queso amarillo</label></li>
+            <li>
+            <input id="tocino" type="checkbox">
+            <label for="tocino" class="ingrediente">Tocino</label></li>
+            <li>
+            <input id="doblecarne" type="checkbox">
+            <label for="doblecarne" class="ingrediente">Doble carne</label></li>
+            <li>
+            <input id="cebolla" type="checkbox">
+            <label for="cebolla" class="ingrediente">Cebolla</label></li>
+            <li>
+            <input id="cebollacaramelizada" type="checkbox">
+            <label for="cebollacaramelizada" class="ingrediente">Cebolla caramelizada</label></li>
+          </ul>
+        </li>
+        </ol>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Datos de entrega
+        </legend>
+        <ul>
+          <li><label for="nombre" class="datos">Nombre</label>
+          <input id="nombre" type="text" required></li>
+          <li><label for="direccion" class="datos">Dirección</label>
+          <input id="direccion" type="text" required></li>
+          <li><label for="telefono" class="datos">Teléfono</label>
+          <input id="telefono" type="tel" required></li>
+          <li><label for="instruccionesesp" class="datos">Instrucciones especiales</label>
+            <textarea id="instruccionesesp" rows="3"></textarea> </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Métodos de pago
+        </legend>
+        <label for="pago">Elige tu método de pago</label>
+        <select name="pago" id="pago">
+          <option value="efectivo">Efectivo</option>
+          <option value="bizum">Bizum</option>
+          <option value="datáfono">Datáfono a la entrega</option>
+          <option value="online">Pago en línea</option>
+        </select>
+      </fieldset>
+    </form>
+    <input type="submit" value="Enviar">
+  </body>
 </html>

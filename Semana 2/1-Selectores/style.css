@@ -50,11 +50,17 @@ th{
 
 td:nth-child(even){
     background-color: var(--color-claro);
+    text-align: center;
 }
 
 td:nth-child(odd){
     background-color: var(--color-obscuro);
+    text-align: center;
 }
 
-
+#descanso {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
